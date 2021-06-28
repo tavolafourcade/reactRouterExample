@@ -12,7 +12,7 @@ function App() {
       <Link to='/'>Home</Link><br/>
       <Link to='/about'>About</Link><br/>
       <Link to='/contact'>Contact</Link><br/>
-      
+
       <Route path='/' exact component={Home}/>
       <Route path='/about' component={About}/>
       <Route path='/contact' component={Contact}/>
